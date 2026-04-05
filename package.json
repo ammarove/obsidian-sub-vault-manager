@@ -1,0 +1,23 @@
+{
+	"name": "obsidian-sub-vault-manager",
+	"version": "0.0.1",
+	"description": "Create and import Obsidian vaults as sub-vaults linked into your main vault.",
+	"main": "main.js",
+	"type": "module",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+	},
+	"keywords": [],
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^16.11.6",
+		"esbuild": "0.25.5",
+		"eslint-plugin-obsidianmd": "^0.1.9",
+		"tslib": "2.4.0",
+		"typescript": "^5.8.3"
+	},
+	"dependencies": {
+		"obsidian": "latest"
+	}
+}

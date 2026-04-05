@@ -1,0 +1,10 @@
+{
+	"id": "sub-vault-manager",
+	"name": "Sub-vault Manager",
+	"version": "0.0.1",
+	"minAppVersion": "0.15.0",
+	"description": "Create and import Obsidian vaults as sub-vaults — link them into your main vault, seed their config, and keep their settings folder hidden.",
+	"author": "ammarove",
+	"authorUrl": "https://github.com/ammarove",
+	"isDesktopOnly": true
+}
